@@ -6,181 +6,76 @@ box-sizing:border-box;
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:15px;
-	
-background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
-
 }
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #dfe6e9;
-  display: grid;
-  place-items: center;
+  background-color: #edf5f8;
+  display: flex;
 }
-
 .container {
+  height: 90vh;
+  margin: 2rem auto;
+  box-shadow: 0px 0px 5px #36acd9;
   padding: 20px;
- 
-  width: 100vw;
- 
+  width: 80vw;
   display: flex;
   justify-content: space-around;
-}
-body {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  
-}
-.box {
-    width: 50%;
-}
-.box h2 {
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #000000;
-}
-.box h2,
-.box h4,
-.box h1 {
-  font-weight: 400;
-  margin-bottom: 5px;
-  padding: 5px;
-}
-.inc-exp-box {
-  display: flex;
-  padding: 5px;
-  gap: 10px;
-}
-.inc-exp-box div {
-  text-align: center;
-  text-transform: uppercase;
-  padding: 20px;
-  font-size: 18px;
-  flex: 1;
-  border-radius: 2px;
+  align-items: center;
 }
 
-.inc-exp-box div p {
-  font-size: 22px;
-}
-.inc-exp-box div.inc {
-  border-radius: 10px;
-  border: 3px solid #1dd1a1;
-  color: #1dd1a1;
-}
-.inc-exp-box div.exp {
-  border-radius: 10px;
-  border: 3px solid #ee5253;
-  color: #ee5253;
-}
-
-#form {
-  padding: 5px;
-  margin-top: 20px;
-}
-.form-control {
-  margin-top: 10px;
-}
-
-label {
-  display: inline-block;
-  margin: 10px 0;
-  font-size: 18px;
-  font-weight: 400;
-}
-
-input[type="text"],
-input[type="number"] {
-  border: 1px solid #dedede;
-  display: block;
-  width: 100%;
-  font-size: 16px;
-  padding: 10px;
-  outline: none;
-  border-radius: 2px;
-}
-
-.btn {
-  margin-left: 12rem;
-  cursor: pointer;
-  background-color: #2e86de;
-  color: white;
-  display: block;
-  /* width: 50%; */
-  margin-top: 25px;
-  padding: 10px 27px;
-  font-size: 16px;
-  border: 0;
-  font-weight: 600;
-  border-radius: 9px;
-}
-.transaction {
-  width: 50%;
-  
-  padding: 20px;
-  display: flex;
+.sign-in {
   flex-direction: column;
-  overflow-y: scroll;
-}
-.transaction h3 {
-  text-transform: uppercase;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #f1f1f1;
-  margin-bottom: 5px;
-}
-
-.trans {
-  list-style-type: none;
-}
-.trans li {
-  background-color: #fff;
-  color: #333;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  padding: 10px;
-  margin: 10px 0;
-  position: relative;
+  /* text-align: center; */
+  width: 50%;
   display: flex;
-  justify-content: space-between;
-  font-weight: 600;
-  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin: 2rem;
+  color: #274444;
+}
+.logo {
+  width: 50%;
+}
+.logo img{
+  width: 100%;
 }
 
-.trans li.inc {
-  border-left: 5px solid #1dd1a1;
-}
-.trans li.exp {
-  border-left: 5px solid #ee5253;
-}
-.btn-del {
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  font-weight: 600;
-  color: #fff;
-  background-color: #e74c3c;
-  border: none;
-  font-size: 18px;
-  line-height: 20px;
-  cursor: pointer;
-  opacity: 0;
-}
 
-.trans li:hover .btn-del {
-  opacity: 1;
-}
+/* $button-active-blue: #1669F2; */
 
-::-webkit-scrollbar {
-  width: 5px;
-}
-::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #2e86de;
-  border-radius: 8px;
-}
+.google-btn {
+  width: 184px;
+  height: 42px;
+  background-color: #4285f4;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.1);
+  .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  .google-icon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+  }
+  .btn-text {
+    float: right;
+    margin: 11px 11px 0 0;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+  }}
+  #login{
+    cursor: pointer;
+  }

@@ -184,3 +184,16 @@ input[type="number"] {
   background-color: #2e86de;
   border-radius: 8px;
 }
+
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button#signout {
+  padding: 4px 15px;
+  font-size: 20px;
+  border-radius: 9px;
+  border: none;
+}
